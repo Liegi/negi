@@ -1,0 +1,9 @@
+#score {
+    position: fixed;
+    left: 500px;
+}
+.back{
+    position: fixed;
+    font-size: 23px;
+    left: 680px;
+}
