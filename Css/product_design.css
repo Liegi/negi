@@ -32,6 +32,13 @@
     top: 8px;
     left: 310px;
   }
+  .reverse_random_game{
+    color: antiquewhite;
+    font-family: serif;
+    text-decoration: underline;
+    position: absolute;
+    top: 60px;
+  }
   
 }
 @media screen and (min-width: 481px) {

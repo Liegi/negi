@@ -1,6 +1,12 @@
 var field_size = 4;
+
 let square_size = 100;
 
+if(screen.width >= 481){
+    square_size = 100;
+}else{
+    square_size = 50;
+}
 var count = 0;
 
 
@@ -61,8 +67,8 @@ function end_judge(list){
 window.addEventListener("click", function (event) {
     var x = event.pageX;
     var y = event.pageY;
-    x = Math.floor(x/100);
-    y = Math.floor(y/100);
+    x = Math.floor(x/square_size);
+    y = Math.floor(y/square_size);
     if(0<=x && x<=3 && 0<=y && y<=3){
         count ++;
         var dis_score = document.getElementById("score");

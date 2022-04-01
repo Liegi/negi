@@ -1,9 +1,25 @@
-#score {
-    position: fixed;
-    left: 500px;
+@media screen and (max-width: 480px) {
+    #score {
+        position: fixed;
+        top: 240px;
+    }
+
+    .back {
+        position: fixed;
+        font-size: 16px;
+        left: 330px;
+    }
 }
-.back{
-    position: fixed;
-    font-size: 23px;
-    left: 680px;
+
+@media screen and (mix-width: 481px) {
+    #score {
+        position: fixed;
+        left: 500px;
+    }
+
+    .back {
+        position: fixed;
+        font-size: 23px;
+        left: 680px;
+    }
 }
