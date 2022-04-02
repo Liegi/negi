@@ -64,7 +64,7 @@ function end_judge(list){
     return judge;
 }
 
-window.addEventListener("click" || "touched", function (event) {
+window.addEventListener("click", function (event) {
     var x = event.pageX;
     var y = event.pageY;
     x = Math.floor(x/square_size);
@@ -97,41 +97,7 @@ window.addEventListener("click" || "touched", function (event) {
         }
     }    
 });
-document.body.addEventListener( "touchstart", function( event ) {
-    var touchObject = event.changedTouches[0] ;
-	var x = touchObject.pageX ;
-	var y = touchObject.pageY ;
-    x = Math.floor(x/square_size);
-    y = Math.floor(y/square_size);
-    if(0<=x && x<=3 && 0<=y && y<=3){
-        count ++;
-        var dis_score = document.getElementById("score");
-        dis_score.innerHTML = "Click Count:"+" "+count;
-        for(let i=0;i<field_size;i++){
-            field[i][y] ^= 1;
-        }
-        for(let i=0;i<field_size;i++){
-            field[x][i] ^= 1;
-        }
-        field[x][y] ^= 1;
-        field_draw(field);
-        
-        if(end_judge(field)){
-            alert("FIN!! SCORE:"+Math.floor(res/count*100+10));
-            for(let i=0;i<field_size;i++){
-                field[i] = new Array(field_size);
-                for(let j=0;j<field_size;j++){
-                    var random = Math.round(Math.random());
-                    field[i][j] = random;
-                }
-            }
-            count = 0;
-            dis_score.innerHTML = "Click Count:"+" "+count;
-            field_draw(field);
-        }
-    }    
 
-});
 
 // for(let i=0;i<field_size;i++){
 //     for(let j=0;j<field_size;j++){
