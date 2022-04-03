@@ -46,7 +46,13 @@
     position: absolute;
     top: 90px;
   }
-  
+  .divisor{
+    color: antiquewhite;
+    font-family: serif;
+    text-decoration: underline;
+    position: absolute;
+    top: 120px;
+  }
 }
 @media screen and (min-width: 481px) {
   /*  */
@@ -95,5 +101,12 @@
     text-decoration: underline;
     position: absolute;
     top: 90px;
+  }
+  .divisor{
+    color: antiquewhite;
+    font-family: serif;
+    text-decoration: underline;
+    position: absolute;
+    top: 120px;
   }
 }

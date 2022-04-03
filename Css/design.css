@@ -4,10 +4,10 @@
     top: 100px;
     size: 100px;
   }
-  .body {
+  /* .body {
     background:rgb(1, 15, 25);
     font-family: serif;
-  }
+  } */
   .title {
     color: rgb(226, 239, 250);
     position: absolute;
@@ -43,10 +43,10 @@
     font-family: sans-serif;
     font-size: 32px;
   }
-  .body {
+  /* .body {
     background:rgb(1, 15, 25);
     font-family: serif;
-  }
+  } */
   .apps_link {
     font-size: 32px;
     position: absolute;
