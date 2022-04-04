@@ -60,6 +60,13 @@
     position: absolute;
     top: 150px;
   }
+  .physics{
+    color: antiquewhite;
+    font-family: serif;
+    text-decoration: underline;
+    position: absolute;
+    top: 180px;
+  }
 }
 @media screen and (min-width: 481px) {
   /*  */
@@ -122,5 +129,12 @@
     text-decoration: underline;
     position: absolute;
     top: 150px;
+  }
+  .physics{
+    color: antiquewhite;
+    font-family: serif;
+    text-decoration: underline;
+    position: absolute;
+    top: 180px;
   }
 }

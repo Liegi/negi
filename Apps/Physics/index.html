@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <br>
+    <span>θ   =<input id="theta" type="text">
+    <br>
+    <br>
+    <span>v_0=<input id="v0" type="text">
+    <br>
+    <button id="button" onclick="
+            clear_draw();
+            setInterval(draw, 10);
+    ">実行</button>
+    <div id="circ_point">
+      <span id="circ_x"></span>
+      <span id="circ_y"></span>
+    </div>
+  </body>
+</html>
