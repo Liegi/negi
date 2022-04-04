@@ -9,6 +9,7 @@ if(screen.width >= 481){
 }
 var count = 0;
 
+const transpose = a => a[0].map((_, c) => a.map(r => r[c]));
 
 let field = new Array(field_size);
 for(let i=0;i<field_size;i++){
@@ -80,6 +81,7 @@ window.addEventListener("mousedown", function (event) {
             field[x][i] ^= 1;
         }
         field[x][y] ^= 1;
+        field = transpose(field);
         field_draw(field);
         
         if(end_judge(field)){

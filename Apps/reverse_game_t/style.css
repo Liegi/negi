@@ -16,6 +16,12 @@
         top: 450px;
         font-size: 32px;
     }
+    #input{
+        position: fixed;
+        font-size: 23px;
+        width: 60px;
+        left: 450px;
+    }
     #back {
         position: fixed;
         font-size: 23px;
