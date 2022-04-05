@@ -15,7 +15,6 @@
   .menu {
     z-index: 2;
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: -23px;
@@ -31,28 +30,24 @@
   }
   .reverse_random_game{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 60px;
   }
   .reverse_t{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 90px;
   }
   .prime_factorization{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 120px;
   }
   .divisor{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 150px;
@@ -63,6 +58,9 @@
     text-decoration: underline;
     position: absolute;
     top: 180px;
+  }
+  body{
+    font-family: sans-serif;
   }
 }
 @media screen and (min-width: 481px) {
@@ -82,7 +80,6 @@
   .menu {
     z-index: 2;
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: -23px;
@@ -98,21 +95,18 @@
   }
   .reverse_random_game{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 60px;
   }
   .reverse_t{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 90px;
   }
   .prime_factorization{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 120px;
@@ -126,9 +120,11 @@
   }
   .physics{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 180px;
+  }
+  body{
+    font-family: sans-serif;
   }
 }

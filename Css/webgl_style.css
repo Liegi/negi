@@ -1,13 +1,9 @@
 /* スマホ */
 @media screen and (max-width: 480px) {
-    .tex_dis{
-        width: 20%;
-    }
+
 }
 
 /* パソコン */
 @media screen and (min-width: 481px) {
-    .tex_dis{
-        width: 10%;
-    }
+    
 }
