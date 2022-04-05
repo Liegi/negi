@@ -1,0 +1,165 @@
+@media screen and (max-width: 480px) {
+  #button {
+    position: absolute;
+    top: 100px;
+    size: 100px;
+  }
+  #twitter_logo{
+    transition:0.3s;
+  }
+  #twitter_logo:hover{
+      transform: scale(1.1);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
+  }
+  #github_logo{
+    transition:0.3s;
+    color:rgb(0, 0, 0);
+  }
+  #github_logo:hover{
+      transform: scale(1.1);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+
+  #github_link{
+    font-family: sans-serif;
+    color: rgb(62, 14, 120);
+  }
+  #github_link:hover{
+    filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+
+  #twitter_link{
+    color: rgb(25, 124, 195);
+  }
+  #twitter_link:hover{
+    filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
+  }
+
+  #apps_logo{
+    transition:0.3s;
+  }
+  #apps_logo:hover{
+      transform: scale(1.5);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(51, 90, 67));
+  }
+  #minecraft_logo{
+    transition:0.3s;
+    color:rgb(0, 0, 0);
+  }
+  #minecraft_logo:hover{
+      transform: scale(1.05);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(111, 131, 104));
+  }
+  #minecraft_logo_text{
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    color:rgb(29, 57, 41);
+  }
+  #apps_logo_text{
+    position: absolute;
+    top: 180px;
+    color:rgb(52, 74, 85);
+  }
+  .apps_link {
+    font-size: 24px;
+    position: absolute;
+    top: 210px;
+    color: rgb(0, 0, 0);
+  }
+  .minecraft_link {
+    font-size: 24px;
+    position: absolute;
+    top: 240px;
+    color: rgb(0, 0, 0);
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  #button {
+    position: absolute;
+    top: 100px;
+    size: 100px;
+  }
+  #twitter_logo{
+    transition:0.3s;
+  }
+  #twitter_logo:hover{
+      transform: scale(1.1);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
+  }
+  #github_logo{
+    transition:0.3s;
+  }
+  #github_logo:hover{
+      transform: scale(1.1);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+
+  #github_link{
+    font-family: sans-serif;
+    color: rgb(62, 14, 120);
+  }
+  #github_link:hover{
+    filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+  #twitter_link{
+    color: rgb(25, 124, 195);
+  }
+  #twitter_link:hover{
+    filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
+  }
+  #apps_logo{
+    transition:0.3s;
+    color:rgb(0, 0, 0);
+  }
+  #apps_logo:hover{
+      transform: scale(1.05);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(105, 144, 164));
+  }
+  #minecraft_logo{
+    transition:0.3s;
+    color:rgb(0, 0, 0);
+  }
+  #minecraft_logo:hover{
+      transform: scale(1.05);
+      transition:0.3s;
+      filter: drop-shadow(1px 1px 15px rgb(111, 131, 104));
+  }
+  #minecraft_logo_text{
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    color:rgb(29, 57, 41);
+  }
+  #apps_logo_text{
+    position: absolute;
+    top: 180px;
+    color:rgb(52, 74, 85);
+  }
+  .apps_link {
+    font-size: 24px;
+    position: absolute;
+    top: 210px;
+    color: rgb(0, 0, 0);
+  }
+  .minecraft_link {
+    font-size: 24px;
+    position: absolute;
+    top: 240px;
+    color: rgb(0, 0, 0);
+  }
+  a {
+    text-decoration: none;
+  }
+}

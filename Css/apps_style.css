@@ -12,12 +12,9 @@
   a {
     text-decoration: none;
   }
-  .body {
-    background-color: rgb(0, 0, 0);
-  }
   .menu {
     z-index: 2;
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
@@ -25,7 +22,7 @@
   }
   .back {
     z-index: 2;
-    color: rgb(205, 243, 255);
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
     position: absolute;
     font-size: 20px;
@@ -33,35 +30,35 @@
     left: 310px;
   }
   .reverse_random_game{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 60px;
   }
   .reverse_t{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 90px;
   }
   .prime_factorization{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 120px;
   }
   .divisor{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 150px;
   }
   .physics{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
@@ -82,12 +79,9 @@
   a {
     text-decoration: none;
   }
-  .body {
-    background-color: rgb(0, 0, 0);
-  }
   .menu {
     z-index: 2;
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
@@ -95,7 +89,7 @@
   }
   .back {
     z-index: 2;
-    color: rgb(205, 243, 255);
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
     position: absolute;
     font-size: 20px;
@@ -103,35 +97,35 @@
     left: 90%;
   }
   .reverse_random_game{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 60px;
   }
   .reverse_t{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 90px;
   }
   .prime_factorization{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 120px;
   }
   .divisor{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 150px;
   }
   .physics{
-    color: antiquewhite;
+    color: black;
     font-family: serif;
     text-decoration: underline;
     position: absolute;
