@@ -77,6 +77,16 @@
     top: 240px;
     color: rgb(0, 0, 0);
   }
+  .links{
+    border-bottom: 3px dotted rgb(0, 0, 0);
+    padding-bottom: 15px;
+  }
+  .sitemap > ul > li > ul > li > a{
+    color:rgb(0, 0, 0);
+  }
+  .sitemap > ul > li > a{
+    color:rgb(0, 0, 0);
+  }
   a {
     text-decoration: none;
   }
@@ -147,19 +157,19 @@
     top: 180px;
     color:rgb(52, 74, 85);
   }
-  .apps_link {
-    font-size: 24px;
-    position: absolute;
-    top: 210px;
-    color: rgb(0, 0, 0);
+  .links{
+    border-bottom: 3px dotted rgb(0, 0, 0);
+
+    padding-bottom: 15px;
   }
-  .minecraft_link {
-    font-size: 24px;
-    position: absolute;
-    top: 240px;
-    color: rgb(0, 0, 0);
+
+  .sitemap > ul > li > ul > li > a{
+    color:rgb(0, 0, 0);
   }
-  a {
+  .sitemap > ul > li > a{
+    color:rgb(0, 0, 0);
+  }
+  a{
     text-decoration: none;
   }
 }

@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="Css/index_style.css" type="text/css">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="apple-touch-icon-precomposed" type="image/png" href="IMG/liegi_icon.png">
+
 <head class="head">
   <meta charset="utf-8">
   <title>Home</title>
@@ -13,12 +14,13 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206771582-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-206771582-2');
   </script>
-    </script>
+  </script>
 </head>
+
 <body class="body">
   <header>
     <div class="links">
@@ -29,14 +31,38 @@
       <a href="https://github.com/Liegi"><img src="IMG/logo/logo_github.svg" width="50" id="github_logo"></a>
       <br>
       <a href="apps_index.html"><img src="IMG/logo/apps_logo.svg" width="100" id="apps_logo"></a>
-      <a href="minecraft_index.html"><img src="IMG/logo/minecraft_logo.svg" width="100" id="minecraft_logo"></a>
+      <a href="minecraft/minecraft.html"><img src="IMG/logo/minecraft_logo.svg" width="100" id="minecraft_logo"></a>
       <br>
       <a href="apps_index.html" id="apps_logo_text">apps</a>
-      <a href="minecraft_index.html" id="minecraft_logo_text">minecraft</a>
+      <a href="minecraft/minecraft.html" id="minecraft_logo_text">minecraft</a>
     </div>
   </header>
-  <a href="apps_index.html"  class="apps_link">・apps</a>
+  <!-- <a href="apps_index.html"  class="apps_link">・apps</a>
   <br>
-  <a href="minecraft/minecraft.html" class="minecraft_link">・minecraft</a>
+  <a href="minecraft/minecraft.html" class="minecraft_link">・minecraft</a> -->
+  <div class="sitemap">
+    <ul>
+      <li>
+        <a href="apps_index.html" class="sitemap">apps</a>
+          <ul>
+            <li><a href="Apps/reverse_random_game/index.html">反転パズル</a></li>
+            <li><a href="Apps/reverse_game_t/index.html">反転+転置パズル</a></li>
+            <li><a href="Apps/Prime_factorization/index.html">素因数分解</a></li>
+            <li><a href="Apps/divisor/index.html">約数列挙</a>
+            <li><a href="Apps/Physics/index.html">物理演算（機能少ない&手抜き）</a></li>
+          </ul>
+        </li>
+      </li>
+    </ul>
+    <ul>
+      <li><a href="minecraft/minecraft.html">minecraft</a>
+        <ul>
+          <li><a href="minecraft/tex.html">テクスチャ</a></li>
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </div>
 </body>
+
 </html>
