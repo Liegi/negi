@@ -22,7 +22,6 @@
   .back {
     z-index: 2;
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
     position: absolute;
     font-size: 20px;
     top: 8px;
@@ -54,7 +53,6 @@
   }
   .physics{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 180px;
@@ -87,7 +85,6 @@
   .back {
     z-index: 2;
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
     position: absolute;
     font-size: 20px;
     top: 8px;
@@ -113,7 +110,6 @@
   }
   .divisor{
     color: black;
-    font-family: serif;
     text-decoration: underline;
     position: absolute;
     top: 150px;

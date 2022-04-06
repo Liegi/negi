@@ -64,7 +64,7 @@ function end_judge(list){
     return judge;
 }
 
-window.addEventListener("mousedown", function (event) {
+window.addEventListener("mousedown" || "touchstart", function (event) {
     var x = event.pageX;
     var y = event.pageY;
     x = Math.floor(x/square_size);

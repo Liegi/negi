@@ -65,9 +65,9 @@ function end_judge(list){
     return judge;
 }
 
-window.addEventListener("mousedown", function (event) {
-    var x = event.pageX;
-    var y = event.pageY;
+window.addEventListener("mousedown" || "touchstart", function (event) {
+    var x = event.pageX || event.originalEvent.changedTouches[0].pageX;
+    var y = event.pageY || event.originalEvent.changedTouches[0].pageY;
     x = Math.floor(x/square_size);
     y = Math.floor(y/square_size);
     if(0<=x && x<=3 && 0<=y && y<=3){
