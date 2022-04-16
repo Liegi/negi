@@ -75,6 +75,7 @@
   a {
     text-decoration: none;
   }
+  
   .menu {
     z-index: 2;
     color: black;
@@ -96,11 +97,17 @@
     position: absolute;
     top: 60px;
   }
+  .reverse_random_game:hover{
+    color: rgb(55, 67, 57);
+  }
   .reverse_t{
     color: black;
     text-decoration: underline;
     position: absolute;
     top: 90px;
+  }
+  .reverse_t:hover{
+    color: rgb(55, 67, 57);
   }
   .prime_factorization{
     color: black;
@@ -108,17 +115,26 @@
     position: absolute;
     top: 120px;
   }
+  .prime_factorization:hover{
+    color: rgb(55, 67, 57);
+  }
   .divisor{
     color: black;
     text-decoration: underline;
     position: absolute;
     top: 150px;
   }
+  .divisor:hover{
+    color: rgb(55, 67, 57);
+  }
   .physics{
     color: black;
     text-decoration: underline;
     position: absolute;
     top: 180px;
+  }
+  .physics:hover{
+    color: rgb(55, 67, 57);
   }
   body{
     font-family: sans-serif;

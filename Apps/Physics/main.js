@@ -1,16 +1,14 @@
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
-// y座標を反転
+
 context.scale(1, -1);
-// y軸に沿って高さ分下にずらす
 context.translate(0, -canvas.height);
+
 const g = 9.86;
 var t = 0;
 var r = 10;
 var x = 10;
 var y = 10;
-
-
 
 var draw = setInterval(function(){
     if(y >= 0){
@@ -28,8 +26,8 @@ var draw = setInterval(function(){
         t += 0.06;
         context.beginPath();
         context.arc(x, y, r, 0 * Math.PI / 180, 360 * Math.PI / 180, false);
-        c_x.innerHTML = String(Math.floor(x));
-        c_y.innerHTML = String(Math.floor(y)+1);
+        c_x.innerHTML = String(Math.round(x * 100)/100);
+        c_y.innerHTML = String(Math.round((y+1) * 100)/100);
         context.stroke();
     }
 }, 10);
@@ -40,9 +38,3 @@ function clear_draw(){
     y = 40;
     t = 0;
 }
-
-// setInterval(draw, 10);
-
-
-
-

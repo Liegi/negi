@@ -138,6 +138,13 @@
     left: 240px;
     color:rgb(70, 42, 52);
   }
+  .sitemap{
+    font-family: sans-serif;
+  }
+  .sitemap_link:hover{
+    /* filter: drop-shadow(1px 1px 15px rgb(153, 105, 105)); */
+    color: rgb(55, 67, 57);
+  }
   .links{
     border-bottom: 3px dotted rgb(0, 0, 0);
 
