@@ -23,6 +23,7 @@
       filter: drop-shadow(1px 1px 15px rgb(196, 37, 37));
   }
   #youtube_link{
+    font-family: sans-serif;
     position: absolute;
     left: 125px;
     color: rgb(213, 28, 28);
@@ -39,6 +40,7 @@
     color: rgb(62, 14, 120);
   }
   #twitter_link{
+    font-family: sans-serif;
     color: rgb(25, 124, 195);
   }
   #minecraft_logo_text{
