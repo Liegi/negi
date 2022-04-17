@@ -2,6 +2,31 @@
   .links{
     background:rgb(255, 255, 255);
   }
+  #github_logo{
+    position: absolute;
+    left: 70px;
+    transition:0.5s;
+  }
+  #github_logo:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+  #youtube_logo{
+    position: absolute;
+    left: 135px;
+    transition:0.5s;
+  }
+  #youtube_logo:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(196, 37, 37));
+  }
+  #youtube_link{
+    position: absolute;
+    left: 125px;
+    color: rgb(213, 28, 28);
+  }
   #button {
     position: absolute;
     top: 100px;
@@ -59,6 +84,12 @@
     text-decoration: none;
   }
 }
+
+
+
+
+
+
 @media screen and (min-width: 481px) {
   .links{
     background:rgb(255, 255, 255);
@@ -77,12 +108,24 @@
       filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
   }
   #github_logo{
+    position: absolute;
+    left: 70px;
     transition:0.5s;
   }
   #github_logo:hover{
       transform: scale(1.1);
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+  #youtube_logo{
+    position: absolute;
+    left: 135px;
+    transition:0.5s;
+  }
+  #youtube_logo:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(196, 37, 37));
   }
   #github_link{
     font-family: sans-serif;
@@ -96,6 +139,12 @@
   }
   #twitter_link:hover{
     filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
+  }
+  #youtube_link{
+    color: rgb(247, 27, 27);
+  }
+  #youtube_link:hover{
+    filter: drop-shadow(1px 1px 15px rgb(213, 59, 59));
   }
   #apps_logo{
     transition:0.5s;

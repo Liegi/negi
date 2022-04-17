@@ -1,0 +1,12 @@
+a {
+    color:black;
+}
+/* スマホ */
+@media screen and (max-width: 480px) {
+
+}
+
+/* パソコン */
+@media screen and (min-width: 481px) {
+    
+}
