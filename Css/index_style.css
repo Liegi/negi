@@ -151,6 +151,8 @@
   #youtube_link{
     font-family: sans-serif;
     color: rgb(255, 56, 56);
+    left: 125px;
+    color: rgb(213, 28, 28);
   }
   #youtube_link:hover{
     filter: drop-shadow(1px 1px 15px rgb(213, 59, 59));
