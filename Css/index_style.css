@@ -148,7 +148,7 @@
   #twitter_link:hover{
     filter: drop-shadow(1px 1px 15px rgb(79, 176, 198));
   }
-  #youtube_link{
+  _::-webkit-full-page-media,_:future,:root #youtube_link{
     font-family: sans-serif;
     color: rgb(255, 56, 56);
     left: 125px;
