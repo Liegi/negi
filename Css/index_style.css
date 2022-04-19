@@ -45,18 +45,18 @@
   }
   #minecraft_logo_text{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 120px;
     color:rgb(29, 57, 41);
   }
   #apps_logo_text{
     position: absolute;
-    top: 180px;
+    top: 160px;
     color:rgb(52, 74, 85);
   }
   #webgl_logo_text{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 240px;
     color:rgb(29, 57, 41);
   }
