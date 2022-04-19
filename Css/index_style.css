@@ -136,6 +136,8 @@
   }
   #github_link{
     font-family: sans-serif;
+    position: absolute;
+    left: 67px;
     color: rgb(62, 14, 120);
   }
   #github_link:hover{
@@ -157,7 +159,7 @@
   #youtube_link{
     font-family: sans-serif;
     position: absolute;
-    left: 125px;
+    left: 130px;
     color: rgb(213, 28, 28);
   }
   #youtube_link:hover{
@@ -189,18 +191,18 @@
   }
   #minecraft_logo_text{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 120px;
     color:rgb(29, 57, 41);
   }
   #apps_logo_text{
     position: absolute;
-    top: 180px;
+    top: 160px;
     color:rgb(52, 74, 85);
   }
   #webgl_logo_text{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 240px;
     color:rgb(70, 42, 52);
   }
