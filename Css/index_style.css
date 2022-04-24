@@ -208,7 +208,7 @@
   }
   .sitemap{
     font-family: sans-serif;
-    background:rgb(250, 250, 250);
+    background:rgba(60, 57, 48, 0.497);
   }
   .sitemap_link:hover{
     /* filter: drop-shadow(1px 1px 15px rgb(153, 105, 105)); */
@@ -221,7 +221,7 @@
   }
 
   .sitemap > ul > li > ul > li > a{
-    color:rgb(0, 0, 0);
+    color:rgb(50, 50, 50);
   }
   .sitemap > ul > li > a{
     color:rgb(0, 0, 0);
@@ -229,5 +229,8 @@
   a{
     font-family: sans-serif;
     text-decoration: none;
+  }
+  body{
+    background:rgb(224, 224, 224);
   }
 }
