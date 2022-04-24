@@ -11,5 +11,7 @@ body{
 
 /* パソコン */
 @media screen and (min-width: 481px) {
-    
+    #inf_link{
+        font-size: 10px;
+    }
 }
