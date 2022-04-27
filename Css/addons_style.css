@@ -6,11 +6,18 @@ body{
 }
 /* スマホ */
 @media screen and (max-width: 480px) {
-
+    #title{
+        border-bottom: 3px dotted rgb(43, 43, 43);
+        padding-bottom: 15px;
+    }
 }
 
 /* パソコン */
 @media screen and (min-width: 481px) {
+    #title{
+        border-bottom: 3px dotted rgb(43, 43, 43);
+        padding-bottom: 15px;
+    }
     #inf_link{
         font-size: 10px;
     }
