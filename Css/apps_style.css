@@ -10,9 +10,21 @@
     height: auto;
   }
   a {
+    color:rgb(0, 0, 0);
     text-decoration: none;
   }
-  .menu {
+  #title {
+    color: black;
+    border-bottom: 4px dotted rgb(0, 0, 0);
+    padding-bottom: 15px;
+  }
+  #back_to_home{
+    color: rgb(111, 0, 0);
+}
+  a {
+    text-decoration: none;
+  }
+  #menu {
     z-index: 2;
     color: black;
     text-decoration: underline;
@@ -27,40 +39,12 @@
     top: 8px;
     left: 310px;
   }
-  .reverse_random_game{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 60px;
-  }
-  .reverse_t{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 90px;
-  }
-  .prime_factorization{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 120px;
-  }
-  .divisor{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 150px;
-  }
-  .physics{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 180px;
-  }
+
   body{
     font-family: sans-serif;
   }
 }
+
 @media screen and (min-width: 481px) {
   /*  */
   * {
@@ -73,15 +57,16 @@
     height: auto;
   }
   a {
+    color:rgb(0, 0, 0);
     text-decoration: none;
   }
-  
-  .menu {
-    z-index: 2;
+  #back_to_home{
+    color: rgb(111, 0, 0);
+  }
+  #title {
     color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: -23px;
+    border-bottom: 4px dotted rgb(0, 0, 0);
+    padding-bottom: 15px;
   }
   .back {
     z-index: 2;
@@ -90,51 +75,6 @@
     font-size: 20px;
     top: 8px;
     left: 90%;
-  }
-  .reverse_random_game{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 60px;
-  }
-  .reverse_random_game:hover{
-    color: rgb(55, 67, 57);
-  }
-  .reverse_t{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 90px;
-  }
-  .reverse_t:hover{
-    color: rgb(55, 67, 57);
-  }
-  .prime_factorization{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 120px;
-  }
-  .prime_factorization:hover{
-    color: rgb(55, 67, 57);
-  }
-  .divisor{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 150px;
-  }
-  .divisor:hover{
-    color: rgb(55, 67, 57);
-  }
-  .physics{
-    color: black;
-    text-decoration: underline;
-    position: absolute;
-    top: 180px;
-  }
-  .physics:hover{
-    color: rgb(55, 67, 57);
   }
   body{
     font-family: sans-serif;

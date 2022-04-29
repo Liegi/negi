@@ -20,6 +20,9 @@ body{
     #check {
         display: none;
     }
+    #check_aco{
+        font-size: 15px;
+    }
     input[type="checkbox"]:checked+#addon_inf_show {
         display: block;
     }
@@ -38,6 +41,9 @@ body{
     }
     #check {
         display: none;
+    }
+    #check_aco{
+        font-size: 15px;
     }
     input[type="checkbox"]:checked + #addon_inf_show {
         transition: 0.8s;
