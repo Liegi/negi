@@ -14,11 +14,13 @@ body{
         border-bottom: 3px dotted rgb(43, 43, 43);
         padding-bottom: 15px;
     }
-    #addon_inf {
+    #addon_inf_show {
         display: none;
     }
-    
-    input[type="checkbox"]:checked+#addon_inf {
+    #check {
+        display: none;
+    }
+    input[type="checkbox"]:checked+#addon_inf_show {
         display: block;
     }
     #inf_link{
@@ -34,17 +36,15 @@ body{
     #back_to_home{
         color: rgb(111, 0, 0);
     }
-    #addon_inf {
+    #check {
         display: none;
     }
-    input[type="checkbox"]:checked + #addon_inf {
+    input[type="checkbox"]:checked + #addon_inf_show {
         transition: 0.8s;
         display: block;
     }
-    
-    .check{
-        margin: 10px 0;
-        padding: 0;
+    #addon_inf_show{
+        display: none;
     }
     #title{
         border-bottom: 3px dotted rgb(43, 43, 43);
