@@ -23,22 +23,24 @@
 </head>
 
 <body class="body">
-  <h2 id="title">Addons</h2>
-  <span id="check_aco">三角形をクリックするとアップデートを確認できます</span>
-  <br>
   <a href="../index.html" id="back_to_home"><img src="../IMG/logo/back_logo.svg" width="10">Homeへ</a>
   <br>
-  <a href="addons/inf_1.00.mcaddon" download="infinity.mcaddon"><img src="../IMG/logo/addon_logo.svg" width="100"></a>
+  <h2 id="title1">Addons</h2>
+  <span id="check_aco">三角形をクリックするとアップデートを確認できます</span>
   <br>
-  <a href="addons/inf_1.00.mcaddon" download="infinity.mcaddon" id="inf_link">・耐久値無限アドオン</a>
+  <a href="addons/inf_1.00.mcaddon" download="infinity.mcaddon" onclick="gtag('event', 'download', {'event_category': 'file','event_label': 'infinity_1','value': '1'});"><img src="../IMG/logo/addon_logo.svg" width="100"></a>
+  <br>
+  <a href="addons/inf_1.00.mcaddon" download="infinity.mcaddon" onclick="gtag('event', 'download', {'event_category': 'file','event_label': 'infinity_2','value': '1'});" id="inf_link">・耐久値無限アドオン</a>
   <label for="check" id="test"><img src="../IMG/logo/inf_show.svg" width="10"></label>
   <div id="addon_inf_box">
     <input type="checkbox" id="check">
     <div id="addon_inf_show">
-      <a href="addons/inf_1.01.mcaddon" download="infinity.mcaddon" class="appdates"> ハサミ追加Ver<img
-          src="../IMG/logo/download_logo.svg" width="13"></a>
+      <li><a href="addons/inf_1.01.mcaddon" download="infinity.mcaddon" class="appdates">ハサミ追加Ver<img src="../IMG/logo/download_logo.svg" width="13"></a></li>
     </div>
   </div>
+  <!-- <h2 id="title2">Reference</h2>
+  <br>
+  <a id="link_rial_ser" href="rial_sur_ref.html">・Rial_Survival_Addon</a> -->
 </body>
 
 </html>

@@ -3,16 +3,23 @@ a {
     text-decoration: none;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .appdates{
     font-size: 10px;
 }
 /* スマホ */
 @media screen and (max-width: 480px) {
-    #title{
+    #title1{
         border-bottom: 3px dotted rgb(43, 43, 43);
         padding-bottom: 15px;
+        font-family: 'Nunito', sans-serif;
+    }
+    #title2{
+        border-bottom: 3px dotted rgb(43, 43, 43);
+        padding-bottom: 15px;
+        border-top: 3px dotted rgb(43, 43, 43);
+        padding-top: 15px;
         font-family: 'Nunito', sans-serif;
     }
     #addon_inf_show {
@@ -53,9 +60,17 @@ body{
     #addon_inf_show{
         display: none;
     }
-    #title{
+    #title1{
         border-bottom: 3px dotted rgb(43, 43, 43);
         padding-bottom: 15px;
+        
+        font-family: 'Nunito', sans-serif;
+    }
+    #title2{
+        border-bottom: 3px dotted rgb(43, 43, 43);
+        padding-bottom: 15px;
+        border-top: 3px dotted rgb(43, 43, 43);
+        padding-top: 15px;
         font-family: 'Nunito', sans-serif;
     }
     #inf_link{
