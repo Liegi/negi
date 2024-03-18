@@ -12,6 +12,7 @@
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
   }
+  
   #youtube_logo{
     position: absolute;
     left: 135px;
@@ -43,6 +44,12 @@
     top: 160px;
     left: 240px;
     color:rgb(29, 57, 41);
+  }
+  #math_logo_text{
+    position: absolute;
+    top: 160px;
+    left: 360px;
+    color:rgb(82, 39, 76);
   }
   .apps_link {
     font-size: 24px;
@@ -76,6 +83,7 @@
 
 
 @media screen and (min-width: 481px) {
+  
   .links{
     background:rgb(255, 255, 255);
   }
@@ -102,17 +110,6 @@
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
   }
-  #youtube_logo{
-    
-    position: absolute;
-    left: 135px;
-    transition:0.5s;
-  }
-  #youtube_logo:hover{
-      transform: scale(1.1);
-      transition:0.5s;
-      filter: drop-shadow(1px 1px 15px rgb(196, 37, 37));
-  }
   #apps_logo{
     transition:0.5s;
   }
@@ -136,6 +133,20 @@
       transform: scale(1.05);
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(153, 105, 105));
+  }
+  #math_logo{
+    transition:0.5s;
+  }
+  #math_logo:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(93, 55, 111));
+  }
+  #math_logo_text{
+    position: absolute;
+    top: 160px;
+    left: 360px;
+    color:rgb(82, 39, 76);
   }
   #minecraft_logo_text{
     position: absolute;
