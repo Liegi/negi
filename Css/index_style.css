@@ -12,7 +12,17 @@
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
   }
-  
+  #me_icon{
+    position: absolute;
+    left: 115px;
+    top:-5px;
+    transition:0.5s;
+  }
+  #me_icon:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(0, 48, 19));
+  }
   #youtube_logo{
     position: absolute;
     left: 135px;
@@ -108,6 +118,17 @@
       transform: scale(1.1);
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(96, 42, 161));
+  }
+  #me_icon{
+    position: absolute;
+    left: 115px;
+    top:-5px;
+    transition:0.5s;
+  }
+  #me_icon:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(0, 48, 19));
   }
   #apps_logo{
     transition:0.5s;
