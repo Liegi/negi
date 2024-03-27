@@ -60,6 +60,12 @@
     top: 265px;
     color:rgb(82, 39, 76);
   }
+  #tools_logo_text{
+    position: absolute;
+    top: 265px;
+    left: 120px;
+    color:rgb(39, 65, 82);
+  }
   .apps_link {
     font-size: 24px;
     position: absolute;
@@ -78,10 +84,19 @@
   }
   .sitemap > ul > li > ul > li > a{
     color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
 
+  }
+  .sitemap > ul > li > ul > li > ul > li > a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
   }
   .sitemap > ul > li > a{
     color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
   }
   a {
     text-decoration: none;
@@ -162,11 +177,27 @@
       transition:0.5s;
       filter: drop-shadow(1px 1px 15px rgb(93, 55, 111));
   }
+  #tools_logo{
+    position: absolute;
+    top: 70px;
+    transition:0.5s;
+  }
+  #tools_logo:hover{
+      transform: scale(1.1);
+      transition:0.5s;
+      filter: drop-shadow(1px 1px 15px rgb(10, 65, 68));
+  }
   #math_logo_text{
     position: absolute;
     top: 160px;
     left: 360px;
     color:rgb(82, 39, 76);
+  }
+  #tools_logo_text{
+    position: absolute;
+    top: 160px;
+    left: 470px;
+    color:rgb(39, 65, 82);
   }
   #minecraft_logo_text{
     position: absolute;
@@ -195,10 +226,20 @@
   }
 
   .sitemap > ul > li > ul > li > a{
-    color:rgb(50, 50, 50);
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+
+  }
+  .sitemap > ul > li > ul > li > ul > li > a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
   }
   .sitemap > ul > li > a{
     color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
   }
   a{
     text-decoration: none;
