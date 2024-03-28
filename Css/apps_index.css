@@ -1,0 +1,18 @@
+#title{
+    border-bottom: 3px dotted rgb(43, 43, 43);
+    padding-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+  }
+#tools_logo_text{
+    position: absolute;
+}
+
+#others_logo_text{
+    position: absolute;
+    left:110px;
+}
